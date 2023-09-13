@@ -24,7 +24,7 @@ job "ingress" {
       }
 
       artifact {
-        source      = "https://releases.hashicorp.com/consul/1.16.1/consul_1.16.1_darwin_amd64.zip"
+        source      = "https://releases.hashicorp.com/consul/1.16.1/consul_1.16.1_linux_amd64.zip"
         destination = "local/consul"
         mode        = "file"
       }
