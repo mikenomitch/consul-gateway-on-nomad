@@ -13,7 +13,7 @@
     iii. Run `nomad run api-gateway-docker.nomad.hcl`
     iv. Check Nomad UI, you should see the job running.
     v. Check Consul UI, you should see the API-GW registered.
-6. Start example-app, following instructions below.
+6. Start hello-app, following instructions below.
     i. Look at the hello-app-golang-docker.nomad.hcl file in this repo.
     ii. Edit the ports and Consul address appropriately.
     iii. Run `nomad run hello-app-golang-docker.nomad.hcl`
